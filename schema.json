@@ -1,0 +1,75 @@
+// Company
+{
+	name:"",
+	locations:[""],
+	head_office:"",
+	company_links: [{name:"",url_prefix:"",url_suffix:"",data_points["",""],data_selectors:["","",""]},
+			{name:"",url_prefix:"",url_suffix:"",data_points["",""],data_selectors:["","",""]},
+			{name:"",url_prefix:"",url_suffix:"",data_points["",""],data_selectors:["","",""]}],
+}
+
+
+// Job Seeker
+{
+	fname:"",
+	lname:"",
+	summary:"",
+	current_position:"",
+	current_company:"",
+	total_exp:"",
+	current_location:"",
+	desired_locations:[""],
+	mode_desired:[""],
+	current_ctc:"",
+	expected_ctc:"",
+	links: [{name:"",url_prefix:"",url_suffix:"",data_points["",""],data_selectors:["","",""]},
+			{name:"",url_prefix:"",url_suffix:"",data_points["",""],data_selectors:["","",""]},
+			{name:"",url_prefix:"",url_suffix:"",data_points["",""],data_selectors:["","",""]}],
+	skills:[{name:"",verified:true},{name:"",verified:false}],
+	also_knowing_skills:[{name:"",verified:true},{name:"",verified:false}],
+	current_best_offer:"",
+	worst_start_date:"",
+	highest_education:"",
+	college_category:"",
+	technical_certifications:["","",""],
+}
+
+
+// Job Provider
+{
+	hr_fname:"",
+	hr_lname:"",
+}
+
+// Job Post
+{
+	position:"",
+	total_relavent_exp:"",
+	locations:[""],
+	mode_desired:[""],
+	best_ctc:"",
+	start_date:"",
+	skills:[{name:"",verified:true},{name:"",verified:false}],
+	also_knowing_skills:[{name:"",verified:true},{name:"",verified:false}],
+}
+
+
+
+// Match
+{
+
+}
+
+
+// Skills
+{
+	name:"",
+	verified:true
+}
+
+
+// Tests
+{
+	name:""
+}
+
