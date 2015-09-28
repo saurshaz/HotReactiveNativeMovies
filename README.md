@@ -1,4 +1,8 @@
-# Develop Mobile App using React Native
+
+
+# HotReactiveNativeMovies
+react-native movies example with hot-reload(primarily for android) - shall make it work on iOS as well
+
 **React Native** is a Facebook developed tool set, which enables developer to build world-class application experiences on native platforms using a consistent developer experience based on JavaScript and [React](http://facebook.github.io/react). The focus of React Native is on developer efficiency across all the platforms you care about - **learn once, write anywhere**. 
 
 Supported operating systems are >= Android 4.1 (API 16) and >= iOS 7.0.
