@@ -10,8 +10,11 @@ On Android with live Reload and DEBUG
 2) `cd android,`
 3) On the device - setup usb debugging
 4) connect device
-5) `./gradlew clean installDebug`
-6) shake the device select debug options enable `reload on JS change`
+5) `platform-tools/adb reverse tcp:8081 tcp:8081`
+6) `platform-tools/adb reverse tcp:8080 tcp:8080` 
+7) `platform-tools/adb reverse tcp:8082 tcp:8082` 
+8) `./gradlew clean installDebug`
+9) shake the device select debug options enable `reload on JS change`
 
 Code as fast as speed now.
 
