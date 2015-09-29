@@ -57,7 +57,7 @@ var MovieCell = React.createClass({
                 {this.props.movie.title}
               </Text>
               <Text style={styles.movieYear} numberOfLines={1}>
-                {this.props.movie.year} agon
+                {this.props.movie.year} ago
                 {' '}&bull;{' '}
                 <Text style={getStyleFromScore(criticsScore)}>
                   Critics {getTextFromScore(criticsScore)}
